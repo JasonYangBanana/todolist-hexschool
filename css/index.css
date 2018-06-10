@@ -24,14 +24,15 @@ header {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    header ul button {
+    header ul a {
       font-size: 24px;
       font-family: Roboto-Medium;
       background: transparent;
       color: #00408B;
       border: none; }
-      header ul button:hover {
-        color: #FFFFFF; }
+      header ul a:hover {
+        color: #FFFFFF;
+        text-decoration: none; }
 
 .containers {
   width: 60vw;
@@ -50,3 +51,44 @@ header {
     margin-top: 24px;
     width: 620px;
     height: 65px; }
+  .containers ul {
+    width: 620px;
+    margin-top: 24px; }
+    .containers ul li {
+      margin: 5px 0 0 5px;
+      height: 102px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .containers ul li input {
+        margin: 24px 0 0 32px; }
+      .containers ul li .listDetail {
+        margin: 24px 40% 0 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column; }
+        .containers ul li .listDetail i {
+          margin: 0 5px 0; }
+      .containers ul li .fa-pencil-alt {
+        margin: 24px 32px 0 32px; }
+    .containers ul .stared {
+      background-color: #FFF2DC; }
+      .containers ul .stared .fa-star {
+        color: #F5A623; }
+    .containers ul .noneStared {
+      background-color: #F2F2F2; }
+  .containers .taskLeft {
+    font-family: Roboto;
+    font-style: Italic;
+    color: #C8C8C8; }
