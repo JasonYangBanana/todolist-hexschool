@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todolist-hexschool</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/inprogress.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#">My Tasks</a></li>
+            <li><a href="#">In progress</a></li>
+            <li><a href="#">Completed</a></li>
+        </ul>
+    </header>
+    <div class="containers">
+        <input class ="inputEvent" type="text" id="inputEvent" placeholder="+ Add Task">
+
+        <ul id="todoList">
+            <li class="stared">
+                <input type="checkbox">
+                <div class="listDetail">
+                    <span>Type Something Here…</span>
+                    <span>
+                        <i class="fas fa-calendar-alt"> 5/14</i>
+                        <i class="fas fa-file"></i>
+                        <i class="fas fa-comment-dots"></i>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+            </li>
+            <li class="stared">
+                <input type="checkbox">
+                <div class="listDetail">
+                    <span>Type Something Here…</span>
+                    <span>
+                        <i class="fas fa-file"></i>
+                        <i class="fas fa-comment-dots"></i>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+            </li>
+            <li class="noneStared">
+                <input type="checkbox">
+                <div class="listDetail">
+                    <span>Type Something Here…</span>
+                    <span>
+                        <i class="fas fa-calendar-alt"> 6/18</i>                        
+                    </span>
+                </div>
+                <div>
+                    <i class="far fa-star"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+            </li>
+            <li class="noneStared">
+                <input type="checkbox">
+                <div class="listDetail">
+                    <span>Type Something Here…</span>
+                    <span>
+                        <i class="fas fa-file"></i>
+                    </span>
+                </div>
+                <div>
+                    <i class="far fa-star"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+            </li>
+        </ul>
+        <span class="taskLeft" id="taskLeft">4 tasks left</span> 
+    </div ="containers">
+       
+</body>
+</html>

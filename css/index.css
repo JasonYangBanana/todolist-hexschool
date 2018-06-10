@@ -1,0 +1,52 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal; }
+  body ul {
+    list-style: none; }
+
+header {
+  background-color: #4a90e2;
+  height: 76px; }
+  header ul {
+    height: 100%;
+    width: 60vw;
+    margin-left: 20vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    header ul button {
+      font-size: 24px;
+      font-family: Roboto-Medium;
+      background: transparent;
+      color: #00408B;
+      border: none; }
+      header ul button:hover {
+        color: #FFFFFF; }
+
+.containers {
+  width: 60vw;
+  margin-left: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .containers .inputEvent {
+    margin-top: 24px;
+    width: 620px;
+    height: 65px; }
